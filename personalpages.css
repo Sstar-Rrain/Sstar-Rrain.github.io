@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("https://w.wallhaven.cc/full/kw/wallhaven-kw7pd7.png");
+    background-position: left;
+    background-position-y: bottom;
+    /* background-size: 1320px 800px; */
+    background-repeat: no-repeat;
+}
+.headtitle {
+  background-color:black;
+  margin-top: 0%;
+  height: 40px;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  width: auto;
+  display: flex;
+}
+.search {
+  float: left;
+  padding-top: 0.5%;
+  padding-left: 2%;
+  display: inline;
+}
+.title{
+  color: rgb(192, 188, 188);
+  font: small-caps bold 30px sans-serif;
+  margin: auto;
+  padding-right: 8.8%;
+  text-align: center;
+}
+.dropdown{
+  float: right;
+  color: azure;
+  padding-top: 0.5%;
+  padding-right: 2%;
+}
+.dropdown button {
+    width: 105px;
+    height: 32px;
+}
+.dropdown-content {
+  list-style: none;
+  display: none;
+  position: absolute;
+  margin-top: 0;
+  padding: 0%;
+  /* border: 0.5mm solid white; */
+}
+.dropdown-content>li>a {
+  text-decoration: none;
+  color: azure;
+  background-color: #252323;
+  line-height: 36px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid rgb(77, 76, 76);
+  border-top: none;
+  text-align: left;
+  font-size: 15;
+  display: block;
+  
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover button {
+  background-color: rgb(211, 238, 238);
+}
+table {
+  margin: auto;
+  color: white;
+  text-align: center;
+  border: 1mm solid grey;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+}
+caption {
+  font-size: 32px;
+  padding: 15px;
+}
+th,td {
+  padding: 10px;
+  border: 1mm solid grey;
+}
+th {
+  background-color: #A9AEAA;
+}
+td {
+  font-size: 14px;
+  background-color: #E2E1DC;
+}
+.c1 {
+  background-color: #BFB1CC;
+}
+.c2 {
+  background-color: #AEC6D4;
+}
+.c3 {
+  background-color: #ADC7AF;
+}
+.c4 {
+  background-color: #D6C9AD;
+}
+.c5 {
+  background-color: #DEBD86;
+}
+.c6 {
+  background-color: #D9BDC5;
+}
+.c7 {
+  background-color: #8BBDC6;
+}
+.c8 {
+  background-color: #9D9280;
+}
+.c9 {
+  background-color: #D5BCA8;
+}
